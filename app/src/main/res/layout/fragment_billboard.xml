@@ -48,14 +48,14 @@
                 android:src="@drawable/lavenganza" />
 
             <TextView
-                android:layout_width="169dp"
-                android:layout_height="wrap_content"
+                android:layout_width="153dp"
+                android:layout_height="37dp"
                 android:layout_gravity="end"
                 android:fontFamily="sans-serif-medium"
                 android:paddingTop="10dp"
                 android:text="@string/star_wars_episodio_iii_la_venganza_de_los_sith"
                 android:textColor="@color/white"
-                android:textSize="16dp" />
+                android:textSize="10dp" />
 
             <TextView
                 android:layout_width="169dp"
@@ -114,14 +114,14 @@
                 android:src="@drawable/harrypotter" />
 
             <TextView
-                android:layout_width="@dimen/movie_title_text_width"
+                android:layout_width="127dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:fontFamily="sans-serif-medium"
                 android:paddingTop="10dp"
                 android:text="@string/harry_potter_y_la_piedra_filosofal"
                 android:textColor="@color/white"
-                android:textSize="16dp" />
+                android:textSize="10dp" />
 
             <TextView
                 android:layout_width="169dp"

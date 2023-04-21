@@ -13,7 +13,7 @@
         android:layout_width="0dp"
         android:layout_height="254dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="8dp"
         android:src="@drawable/lavenganza"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +25,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="@string/star_wars_episodio_iii_la_venganza_de_los_sith"
         android:textColor="@color/white"
         android:textSize="16dp"
@@ -61,6 +62,7 @@
     <TextView
         android:layout_width="307dp"
         android:layout_height="166dp"
+        android:layout_marginTop="24dp"
         android:text="@string/starwars_description"
         android:textColor="@color/white"
         android:textSize="12dp"
@@ -68,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.19" />
+        app:layout_constraintVertical_bias="0.36" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
