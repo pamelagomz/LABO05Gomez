@@ -51,6 +51,7 @@
                 android:layout_width="153dp"
                 android:layout_height="37dp"
                 android:layout_gravity="end"
+                android:textAlignment="center"
                 android:fontFamily="sans-serif-medium"
                 android:paddingTop="10dp"
                 android:text="@string/star_wars_episodio_iii_la_venganza_de_los_sith"
