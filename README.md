@@ -17,5 +17,6 @@ Component
 3. Mencione algunas de las ventajas del Navigation Graph
 
 -Podemos definir la estructura de navegación de nuestra aplicación
+
 -AL poder ver los destinos representado por una pantallade la aplicacion, es mas facil podmos comprender 
 de mejor manera la navegacion. 
