@@ -10,9 +10,9 @@ actividades no es muy clara y muchas veces puede ser mas dificl de ser escalable
 
 2. Menciona los componentes fundamentales de Navigation
 Component
-● Navigation Graph
-● NavHost
-● NavController
+- Navigation Graph
+- NavHost
+- NavController
 
 3. Mencione algunas de las ventajas del Navigation Graph
 
