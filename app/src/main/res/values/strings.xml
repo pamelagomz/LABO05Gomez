@@ -2,4 +2,10 @@
     <string name="app_name">My Application</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="star_wars_episodio_iii_la_venganza_de_los_sith">Star wars: episodio III - la venganza de los sith</string>
+    <string name="calification">9.8</string>
+    <string name="harry_potter_y_la_piedra_filosofal">Harry Potter y la piedra filosofal</string>
+    <string name="starwars_description">Star Wars: Episodio III - La venganza de los Sith (título original en inglés: Star Wars: Episode III - Revenge of the Sith; también conocida en español como La guerra de las galaxias: Episodio 3 - La venganza de los Sith) es una película de space operan. 1​ estadounidense, escrita y dirigida por George Lucas.</string>
+    <string name="new_movie_title">New Movie</string>
+    <string name="submit_button">Submit</string>
 </resources>

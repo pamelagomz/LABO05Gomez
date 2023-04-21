@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="movie_widht">200dp</dimen>
+    <dimen name="movie_title_text_width">169dp</dimen>
+    <dimen name="Input_width">380dp</dimen>
+</resources>
