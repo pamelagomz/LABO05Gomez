@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.ui.movie
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.cardview.widget.CardView
 import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
+import com.example.myapplication.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 
