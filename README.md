@@ -1,4 +1,14 @@
 # LABO05Gomez
+---------------------LABO 06-------------------------------------
+1. ¿En qué consiste el patrón de diseño Repository?
+COn el patron de diseño Repository podemos separar la capa de datos del resto de nuestra aplicacion. COn la capa de datos, controlamos los datos y toda lal logica empresarial, esto ayuda con la seguridad de la aplicacion. El respositorio es el responsable de exponer datos al resto de la app y centralizar los cambios en los datos
+
+
+2. ¿Qué es el ViewModel?
+ViewModel es un contenedor de estado a nivel de pantalla que expone el estado a la IU. Su principal beneficio es que almacena en caché el estado y lo conserva durante los cambios de configuración
+
+
+----------------------LABO 05 -----------------------------------
 8. To do:
 1. ¿Qué diferencia existe entre navegar dentro de la aplicación utilizando
 Navigation Component o hacer uso de intents?
