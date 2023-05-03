@@ -1,3 +1,24 @@
+------------------------LAB0 07-------------------------------------
+5. To do:
+1. ¿Qué ventajas tiene el utilizar LiveData?
+Nos ayuda a mantener los datos siempre actualizados y no es necesario un control manual del ciclo de vida. 
+
+2. ¿Qué patrón de diseño utiliza LiveData?
+LiveData sigue el patrón de diseño observador.
+
+3. Menciona que se debe agregar al Gradle para poder implementar
+DataBinding
+
+tenemos que agregar 
+dataBinding{
+enable true 
+}
+
+4. ¿Qué es DataBinding? Menciona sus ventajas frente a findViewById
+
+DataBinding nos  permite vincular los elementos de la interfaz de usuario (UI)
+de una aplicación directamente a los datos de la aplicación
+
 # LABO05Gomez
 ---------------------LABO 06-------------------------------------
 1. ¿En qué consiste el patrón de diseño Repository?
