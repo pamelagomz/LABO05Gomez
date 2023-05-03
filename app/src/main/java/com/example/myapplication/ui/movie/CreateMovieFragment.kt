@@ -11,7 +11,6 @@ import androidx.lifecycle.ViewModel
 import androidx.navigation.fragment.findNavController
 import com.example.myapplication.R
 import com.example.myapplication.data.models.MovieModel
-import com.example.myapplication.databinding.ActivityMainBinding
 import com.example.myapplication.databinding.FragmentCreateMovieBinding
 
 
@@ -19,7 +18,7 @@ class CreateMovieFragment : Fragment() {
 
     private lateinit var binding: FragmentCreateMovieBinding
 
-    private val viewModel: MovieViewModel by activityViewModels{
+    private val viewModel: MovieViewModel by activityViewModels {
         MovieViewModel.Factory
     }
 
@@ -36,32 +35,54 @@ class CreateMovieFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.btnSUbmit.setOnClickListener{
-            createMovie()
+
+        setViewModel()
+
+        binding.btnSUbmit.setOnClickListener {
+
+        }
+
+    }
+
+    private fun setViewModel() {
+        binding.viewmodel = viewModel
+    }
+
+    private fun setObserver() {
+        viewModel.status.observe(viewLifecycleOwner){status ->
+            when {
+                status.equals(MovieViewModel.MOVIE_CREATED)->{
+                    Log.d("APP TAG", status)
+                    Log.d("APP TAG",viewModel.getMovie().toString())
+
+                    viewModel.clearData()
+                    viewModel.clearStatus()
+
+                    findNavController().popBackStack()
+                }
+                status.equals(MovieViewModel.WRONG_DATA)->{
+                    Log.d("TAG APP", status)
+                    viewModel.clearData()
+                }
+            }
 
         }
     }
 
-    private fun createMovie() {
-
-        val newMovie =  MovieModel(
-            binding.inputName.text.toString(),
-            binding.inputCategory.text.toString(),
-            binding.inputDescription.text.toString(),
-            binding.inputCalificacion.text.toString()
-
-        )
-
-        viewModel.addMovie(newMovie)
-
-        Log.d("TAG APP", viewModel.getMovie().toString())
-
-        findNavController().popBackStack()
-
-
-    }
-
-
-
 
 }
+
+
+
+
+//        Log.d("TAG APP", viewModel.getMovie().toString())
+//
+//        findNavController().popBackStack()
+
+//val newMovie =  MovieModel(
+//            binding.inputName.text.toString(),
+//            binding.inputCategory.text.toString(),
+//            binding.inputDescription.text.toString(),
+//            binding.inputCalificacion.text.toString()
+//
+//        )
