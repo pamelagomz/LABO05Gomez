@@ -37,10 +37,8 @@ class CreateMovieFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         setViewModel()
+        setObserver()
 
-        binding.btnSUbmit.setOnClickListener {
-
-        }
 
     }
 
@@ -55,18 +53,22 @@ class CreateMovieFragment : Fragment() {
                     Log.d("APP TAG", status)
                     Log.d("APP TAG",viewModel.getMovie().toString())
 
-                    viewModel.clearData()
-                    viewModel.clearStatus()
 
+                    viewModel.clearStatus()
+                    viewModel.clearData()
                     findNavController().popBackStack()
                 }
                 status.equals(MovieViewModel.WRONG_DATA)->{
                     Log.d("TAG APP", status)
-                    viewModel.clearData()
+                    viewModel.clearStatus()
                 }
             }
 
         }
+    }
+
+    companion object{
+        const val APP_TAG = "APP TAG"
     }
 
 
