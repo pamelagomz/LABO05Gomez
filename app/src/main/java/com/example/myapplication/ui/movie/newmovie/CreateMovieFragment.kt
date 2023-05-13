@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.movie
+package com.example.myapplication.ui.movie.newmovie
 
 import android.os.Bundle
 import android.util.Log
@@ -7,11 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
-import androidx.lifecycle.ViewModel
 import androidx.navigation.fragment.findNavController
-import com.example.myapplication.R
-import com.example.myapplication.data.models.MovieModel
 import com.example.myapplication.databinding.FragmentCreateMovieBinding
+import com.example.myapplication.ui.movie.viewmodel.MovieViewModel
 
 
 class CreateMovieFragment : Fragment() {

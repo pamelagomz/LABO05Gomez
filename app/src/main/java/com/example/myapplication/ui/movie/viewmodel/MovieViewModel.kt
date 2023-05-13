@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.movie
+package com.example.myapplication.ui.movie.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -8,7 +8,6 @@ import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.myapplication.MovieReviewerAppliaction
 import com.example.myapplication.data.models.MovieModel
 import com.example.myapplication.repository.MovieRepository
-import kotlin.contracts.Returns
 
 class MovieViewModel(private val repository: MovieRepository): ViewModel() {
 
@@ -59,6 +58,13 @@ class MovieViewModel(private val repository: MovieRepository): ViewModel() {
 
      fun clearStatus(){
         status.value = BASE_STATE
+    }
+
+    fun setSelectedMovie(movie: MovieModel){
+        name.value = movie.name
+        category.value = movie.category
+        description.value = movie.description
+        qualification.value = movie.qualification
     }
 
     companion object{

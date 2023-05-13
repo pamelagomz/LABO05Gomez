@@ -9,7 +9,7 @@
 
         <variable
             name="viewmodel"
-            type="com.example.myapplication.ui.movie.MovieViewModel" />
+            type="com.example.myapplication.ui.movie.viewmodel.MovieViewModel" />
 
     </data>
 
@@ -18,7 +18,7 @@
         android:layout_height="match_parent"
         android:background="@color/backgroundLayout"
         android:orientation="vertical"
-        tools:context=".ui.movie.CreateMovieFragment">
+        tools:context=".ui.movie.newmovie.CreateMovieFragment">
 
         <TextView
             android:id="@+id/textView2"
