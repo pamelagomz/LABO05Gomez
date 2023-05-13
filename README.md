@@ -1,3 +1,19 @@
+------------------------LAB0 08-------------------------------------
+1. ¿Cuál es la principal ventaja de utilizar Recycler View
+Una de las principales ventajas es la eficiencia de desarollo de aplicaciones y nos permite personalizar elementos. AL cargarse unicamente
+los elementos que se ven en pantallas se logra reducir la obrecarga de memoria.  
+
+
+
+2. Menciona los componentes de RecyclerView y la función que tiene
+cada uno de ellos
+-List item:Es la vista que mostrara cada elemento de la lista 
+-ViewHolder: Almacena una referencia a la vista de cada elemento de la lista 
+-Adapter: El adaptador se encarga de vincolar los datos con las vistas que se muestran en pantalla
+
+
+
+
 ------------------------LAB0 07-------------------------------------
 5. To do:
 1. ¿Qué ventajas tiene el utilizar LiveData?
